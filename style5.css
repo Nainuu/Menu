@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0.5rem;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+nav {
+    border: 2px solid #333;
+    border-radius: 2rem;
+    margin: 0 auto 1rem;
+    max-width: 600px;
+    font-size: 3rem;
+    line-height: 7rem;
+}
+
+h2 {
+    padding: 1rem;
+    background-color: gold;
+    border-radius: 2rem 2rem 0 0;
+    /* border: black solid 2px; */
+}
+
+ul {
+    list-style-type: none;
+}
+li a {
+    display: block;
+
+}
+
+li a,li a:visited {
+    /* background-color: papayawhip; */
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+
+    background-color: aqua;
+
+}
+li a:hover, li a:focus {
+    background-color: #333;
+    color: whitesmoke;
+    cursor: pointer;
+    text-decoration: solid;
+    /* border-radius: 0 0 2rem 2rem; */
+}
+a:active {
+    background-color: rgb(182, 119, 37);
+    color: black;
+    text-decoration: solid;
+}
+
+li:last-child a {
+    border-radius: 0 0 2rem 2rem;
+}
